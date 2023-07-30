@@ -55,12 +55,14 @@ h2 {
   color: grey;
   margin-right: 5px;
 }
+
 .app .todos {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
+
 .app .todos .todo {
   margin-top: 0.8em;
   width: 20em;
@@ -72,6 +74,7 @@ h2 {
   border-radius: 6px;
   padding: 5px;
 }
+
 .app .todos .todo .left {
   display: flex;
   justify-content: flex-start;

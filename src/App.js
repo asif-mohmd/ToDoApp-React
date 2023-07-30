@@ -45,6 +45,8 @@ function App() {
         })
         }
 
+        
+
         {toDos.map((obj) => {
           if (obj.status) {
             return (<h1>{obj.text}</h1>)
