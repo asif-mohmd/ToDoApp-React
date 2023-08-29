@@ -4,7 +4,9 @@ import { useState } from 'react'
 function App() {
   const [toDos, setToDos] = useState([])
   const [toDo, setToDo] = useState('')
+  
   return (
+
     <div className="app">
       <div className="mainHeading">
         <h1>ToDo List</h1>
@@ -51,7 +53,6 @@ function App() {
           }
           return null
         })}
-
       </div>
     </div>
   );
